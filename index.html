@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Psicoterapia online profissional. Agende sua consulta com um psicólogo qualificado e experiente.">
+    <meta name="keywords" content="psicólogo online, terapia online, psicoterapia, saúde mental, ansiedade, depressão">
+    <meta name="author" content="Psicólogo Online">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seusite.com/">
+    <meta property="og:title" content="Psicólogo Online | Terapia Profissional">
+    <meta property="og:description"
+        content="Agende sua consulta online com psicólogo qualificado. Atendimento profissional e sigiloso.">
+    <meta property="og:image" content="images/psychologist.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://seusite.com/">
+    <meta property="twitter:title" content="Psicólogo Online | Terapia Profissional">
+    <meta property="twitter:description" content="Agende sua consulta online com psicólogo qualificado.">
+    <meta property="twitter:image" content="images/psychologist.png">
+
+    <title>Isaias Bez | Psicologia Online</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato:ital,wght@0,400;1,400&family=Merriweather:wght@800;900&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Psychologist",
+      "name": "Dr. Rafael Silva",
+      "image": "images/psychologist.png",
+      "description": "Psicólogo especializado em terapia online",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BR"
+      },
+      "priceRange": "$$",
+      "telephone": "+55-11-99999-9999",
+      "email": "contato@psicologo.com"
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="images/icon.png" alt="Logo" class="nav__logo-img">
+                <div class="nav__logo-text">
+                    <span class="nav__logo-name">Isaias Bez</span>
+                    <span class="nav__logo-subtitle">Psicólogo</span>
+                </div>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Início</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Serviços</a></li>
+                    <li class="nav__item"><a href="#how-it-works" class="nav__link">Como Funciona</a></li>
+                    <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <a href="#contact" class="btn btn--primary nav__btn">Agendar Consulta</a>
+                <div class="nav__social">
+                    <a href="https://instagram.com/psicologo" target="_blank" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/5511999999999" target="_blank" aria-label="WhatsApp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Se entender faz diferença.<br>
+                    <span class="gradient-text">Vamos juntos?</span>
+                </h1>
+                <p class="hero__description">
+                    Psicoterapia online profissional para quem busca autoconhecimento,
+                    equilíbrio emocional e qualidade de vida.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#contact" class="btn btn--primary btn--large hero__cta-btn">Agende sua Avaliação</a>
+                    <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação"
+                        class="btn btn--secondary btn--large hero__whatsapp-btn" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                        </svg>
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <div class="hero__image-wrapper">
+                    <img src="images/psychologist.png" alt="Psicólogo Profissional" loading="eager">
+                    <div class="hero__image-decoration"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <a href="#about" class="scroll-down">
+                <span>Role para baixo</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Terapia Online na Sua Rotina</span>
+                <h2 class="section__title">Minha psicoterapia online é indicada para quem?</h2>
+            </div>
+
+            <div class="about__grid">
+                <div class="about__card" data-animate>
+                    <div class="about__card-icon">
+                        <img src="images/ansiedade.png" alt="Ansiedade e Depressão">
+                    </div>
+                    <h3 class="about__card-title">Ansiedade e Depressão</h3>
+                    <p class="about__card-description">
+                        Transtornos psiquiátricos interferem na forma como nos relacionamos e a forma
+                        como nos relacionamos interferem na nossa saúde psicológica.
+                    </p>
+                </div>
+
+                <div class="about__card" data-animate>
+                    <div class="about__card-icon">
+                        <img src="images/trabalho.png" alt="Trabalho e Profissão">
+                    </div>
+                    <h3 class="about__card-title">Trabalho e Profissão</h3>
+                    <p class="about__card-description">
+                        O trabalho pode ser por um lado promotor para fortalecer nossa identidade,
+                        porém, pode ser uma atividade que nos distancia dos nossos reais interesses.
+                    </p>
+                </div>
+
+                <div class="about__card" data-animate>
+                    <div class="about__card-icon">
+                        <img src="images/familia.png" alt="Relacionamentos e Família">
+                    </div>
+                    <h3 class="about__card-title">Relacionamentos e Família</h3>
+                    <p class="about__card-description">
+                        São as pessoas mais íntimas que nos afetam, falar e refletir sobre os nossos
+                        relacionamentos é importantíssimo pra clarear o que está acontecendo com a terapia.
+                    </p>
+                </div>
+
+                <div class="about__card" data-animate>
+                    <div class="about__card-icon">
+                        <img src="images/autoconhecimento.png" alt="Autoconhecimento">
+                    </div>
+                    <h3 class="about__card-title">Autoconhecimento</h3>
+                    <p class="about__card-description">
+                        Podemos conhecer melhor nossos movimentos internos, e entender a influência
+                        dos nossos atos na vida de outras pessoas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="about__cta">
+                <a href="#faq" class="btn btn--primary about__cta-btn">Tire suas dúvidas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works section" id="how-it-works">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Atendimento Psicológico Online</span>
+                <h2 class="section__title">Como Funciona</h2>
+            </div>
+
+            <div class="how-it-works__grid">
+                <div class="how-it-works__card" data-animate>
+                    <div class="how-it-works__number">01</div>
+                    <h3 class="how-it-works__title">Tempo da Consulta</h3>
+                    <p class="how-it-works__description">
+                        As sessões são de <strong>1 hora</strong>, proporcionando tempo adequado
+                        para um atendimento profundo e eficaz.
+                    </p>
+                </div>
+
+                <div class="how-it-works__card" data-animate>
+                    <div class="how-it-works__number">02</div>
+                    <h3 class="how-it-works__title">O que você precisa</h3>
+                    <p class="how-it-works__description">
+                        Um lugar silencioso, fones de ouvido, uma câmera regular ou boa,
+                        um lugar confortável para fazer as sessões, e boa conexão com a internet.
+                    </p>
+                </div>
+
+                <div class="how-it-works__card" data-animate>
+                    <div class="how-it-works__number">03</div>
+                    <h3 class="how-it-works__title">Plataforma Usada</h3>
+                    <p class="how-it-works__description">
+                        A plataforma mais estável e mais comum é o <strong>Google Meet</strong>,
+                        mas também pode ser feita no Discord, caso você prefira.
+                    </p>
+                </div>
+
+                <div class="how-it-works__card" data-animate>
+                    <div class="how-it-works__number">04</div>
+                    <h3 class="how-it-works__title">Sigilo e Segurança</h3>
+                    <p class="how-it-works__description">
+                        A terapia online segue os parâmetros do Conselho Federal de Psicologia.
+                        Atendimento 100% sigiloso e profissional.
+                    </p>
+                </div>
+            </div>
+
+            <div class="how-it-works__cta">
+                <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação"
+                    class="btn btn--primary how-it-works__cta-btn" target="_blank">Agende seu horário</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits section">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Psicólogo Virtual</span>
+                <h2 class="section__title">Benefícios em ter uma rotina com sessões de terapia</h2>
+            </div>
+
+            <div class="benefits__grid">
+                <div class="benefits__item" data-animate>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Maior autoconhecimento e clareza emocional</span>
+                </div>
+                <div class="benefits__item" data-animate>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Redução de sintomas de ansiedade e depressão</span>
+                </div>
+                <div class="benefits__item" data-animate>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Melhora nos relacionamentos interpessoais</span>
+                </div>
+                <div class="benefits__item" data-animate>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Desenvolvimento de estratégias de enfrentamento</span>
+                </div>
+                <div class="benefits__item" data-animate>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Espaço seguro e sem julgamentos</span>
+                </div>
+                <div class="benefits__item" data-animate>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Flexibilidade de horários e local</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial section">
+        <div class="container">
+            <div class="testimonial__card" data-animate>
+                <div class="testimonial__quote">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z" />
+                    </svg>
+                </div>
+                <p class="testimonial__text">
+                    "É ótimo ter uma pessoa que não te julga, estou em uma relação não-monogâmica e sou bi,
+                    meu psicólogo é super empático com isso, e isso me ajuda muito."
+                </p>
+                <div class="testimonial__author">
+                    <strong>Paciente Anônimo</strong>
+                    <span>Cliente desde 2024</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section" id="faq">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Terapia Online</span>
+                <h2 class="section__title">Perguntas Frequentes</h2>
+            </div>
+
+            <div class="faq__container">
+                <div class="faq__item" data-animate>
+                    <button class="faq__question">
+                        <span>Você atende presencialmente?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Eu atendo apenas por videochamadas, e tenho visto eficiência desse método, assim como suas
+                            características específicas.</p>
+                    </div>
+                </div>
+
+                <div class="faq__item" data-animate>
+                    <button class="faq__question">
+                        <span>Qual é a abordagem que você trabalha?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Meus atendimentos são orientados por pesquisadores da Terapia Cognitivo Comportamental (TCC),
+                            psicanálise atual e a filosofia do materialismo-dialético. A psicanálise auxilia em um
+                            atendimento empático e que verifica necessidades individuais.</p>
+                    </div>
+                </div>
+
+                <div class="faq__item" data-animate>
+                    <button class="faq__question">
+                        <span>Em quantas sessões vou perceber melhoras?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Essa pergunta é importante para diferenciar um pouco a psicologia de outras profissões
+                            médicas, porque em tese, mesmo com diagnósticos iguais as pessoas são diferentes, então não
+                            há um tempo comum a todos de terapia.</p>
+                    </div>
+                </div>
+
+                <div class="faq__item" data-animate>
+                    <button class="faq__question">
+                        <span>Quais formas de pagamento?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>O pagamento pode ser feito por PIX, boleto ou transferência, o valor que eu cobro é fixo
+                            mensal para que não haja nenhum susto no final do mês e a pessoa que eu atendo não precise
+                            faltar para economizar.</p>
+                    </div>
+                </div>
+
+                <div class="faq__item" data-animate>
+                    <button class="faq__question">
+                        <span>Você atende convênios?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Não atendo convênios, porém o reembolso é garantido por lei, cada convênio tem uma tabela de
+                            reembolso e os médicos psiquiatras já estão acostumados a fazer esse tipo de encaminhamento.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq__item" data-animate>
+                    <button class="faq__question">
+                        <span>Quantas sessões devo fazer no mês?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>A terapia com o psicólogo é uma relação terapêutica, então é importante manter viva essa
+                            relação, por isso geralmente é indicado 1 vez por semana e a cada semana, colocar um assunto
+                            mais profundo e difícil para ser falado.</p>
+                    </div>
+                </div>
+
+                <div class="faq__item" data-animate>
+                    <button class="faq__question">
+                        <span>Posso fazer as sessões pelo celular?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Sim, se o seu celular tiver uma boa câmera, bom som, e te der a impressão de imersão que
+                            importa tanto para a terapia online, mas o mais indicado é por notebook com fones de ouvido.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq__item" data-animate>
+                    <button class="faq__question">
+                        <span>O atendimento online pode substituir o presencial?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Sim, para a maioria das pessoas há uma boa imersão e bom vínculo com o psicólogo, que é o
+                            mais importante. Claro eu recomendo que abaixo dos 16 anos crianças sejam atendidas
+                            presencialmente, pelo seu desenvolvimento afetivo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Fale Comigo</span>
+                <h2 class="section__title">Entre em Contato</h2>
+                <p class="section__description">
+                    Aqui estão todos os meus contatos, você pode ficar à vontade para tirar dúvidas,
+                    pesquisar e até sugerir alguma coisa.
+                </p>
+            </div>
+
+            <div class="contact__container">
+                <div class="contact__info">
+                    <div class="contact__info-item" data-animate>
+                        <div class="contact__info-icon">
+                            <img src="images/telefone.png" alt="Telefone" width="36" height="36">
+                        </div>
+                        <div>
+                            <h4>Telefone / WhatsApp</h4>
+                            <a href="tel:+5511999999999">(11) 99999-9999</a>
+                        </div>
+                    </div>
+
+                    <div class="contact__info-item" data-animate>
+                        <div class="contact__info-icon">
+                            <img src="images/email.png" alt="Email" width="36" height="36">
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:contato@psicologo.com">contato@psicologo.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact__info-item" data-animate>
+                        <div class="contact__info-icon">
+                            <img src="images/insta.png" alt="Instagram" width="36" height="36">
+                        </div>
+                        <div>
+                            <h4>Instagram</h4>
+                            <a href="https://instagram.com/psicologo" target="_blank">@psicologo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact__form" id="contact-form" data-animate>
+                    <div class="form__group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="message">Como posso ajudar?</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--large contact__submit-btn">Enviar
+                        Mensagem</button>
+
+                    <div class="form__message" id="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__bottom">
+                <p>&copy; 2026 Duallis Tech. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tawk.to Chat Widget -->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        // Substitua YOUR_PROPERTY_ID pelo seu ID do Tawk.to após criar conta em https://www.tawk.to/
+        // var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        // (function(){
+        // var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        // s1.async=true;
+        // s1.src='https://embed.tawk.to/YOUR_PROPERTY_ID/default';
+        // s1.charset='UTF-8';
+        // s1.setAttribute('crossorigin','*');
+        // s0.parentNode.insertBefore(s1,s0);
+        // })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
