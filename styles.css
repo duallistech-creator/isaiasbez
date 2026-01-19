@@ -477,6 +477,8 @@ button {
     position: relative;
     border-radius: var(--radius-2xl);
     overflow: hidden;
+    max-width: 85%;
+    margin: 0 auto;
 }
 
 .hero__image-wrapper img {
