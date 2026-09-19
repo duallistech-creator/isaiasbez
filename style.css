@@ -195,8 +195,18 @@ img{max-width:100%;height:auto;display:block}
 .footer-nav h5{font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#7FA89C;margin-bottom:4px}
 .footer-nav a{font-size:14px;color:#cdd9d2}
 .footer-nav a:hover{color:#E2B24A}
+.footer-brand .footer-crp{font-family:'Spline Sans Mono',monospace;font-size:12px;letter-spacing:.1em;color:#7FA89C;margin-top:12px}
 .footer-bottom{max-width:1240px;margin:40px auto 0;padding-top:24px;border-top:1px solid rgba(244,236,214,.12);text-align:center}
 .footer-bottom p{font-size:13px;color:#8FA79D}
+.footer-legal{margin-top:6px}
+.footer-legal a{color:#cdd9d2;text-decoration:underline;text-underline-offset:2px}
+.footer-legal a:hover{color:#E2B24A}
+.legal{max-width:820px;font-family:'Newsreader',serif;font-size:17px;line-height:1.78;color:#3a382e}
+.legal h2{font-family:'Bodoni Moda',serif;font-weight:600;font-size:24px;color:#1B3A44;margin:38px 0 10px}
+.legal h2:first-child{margin-top:0}
+.legal p{margin:0 0 16px}
+.legal a{color:#1B3A44;text-decoration:underline;text-underline-offset:2px}
+.legal strong{color:#2b2a22}
 
 /* ================================================
    ANIMATIONS
